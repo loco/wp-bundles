@@ -1,10 +1,10 @@
-# WP localisation configs
+# WordPress localisation configurations
 
 ## TL;DR
 
-This is a repository of configuration files that describe how WordPress bundles (themes and plugins) have been **localised**.
+This is a repository of configuration files that describe how WordPress "bundles" (themes and plugins) have been **localised**.
 
-It was set up specifically to help the [Loco Translate](https://localise.biz/help/wordpress/translate-plugin) plugin make sense of non-standard translation setups, but any software could potentially use it for the same purpose.
+It's been set up specifically to help the [Loco Translate](https://localise.biz/help/wordpress/translate-plugin) plugin make sense of non-standard translation setups, but any software could potentially use it for the same purpose.
 
 Current status: **experimental**.
 
@@ -13,7 +13,7 @@ Current status: **experimental**.
 
 WordPress allows authors a great deal of freedom in how translation files are arranged and compiled. This makes it very hard for other software to **automatically** present translators with the correct workflow as the author intended.
 
-When bundles are set up in particularly unconventional ways, the software's burden is shifted to the end user (translator) and very often that person is not technical enough to make sense of all the files and what they're supposed to do with them. We have [over 700 support requests](https://wordpress.org/support/plugin/loco-translate) as testament to this.
+When bundles are set up in particularly unconventional ways, the software's burden is shifted to the translator and very often that person is not technical enough to make sense of all the files and what they're supposed to do with them. We have [over 700 support requests](https://wordpress.org/support/plugin/loco-translate) as testament to this.
 
 80% of themes in the official [WordPress directory](https://wordpress.org/themes/) declare the optional `"Text Domain"` [file header](https://codex.wordpress.org/File_Header). 80% isn't bad, but that's still over 400 themes that leave translation software guessing what text domain it's supposed to use. This kind of metadata can sometimes be established by code scanning, etc.. but this is hugely flawed and often slow. Ultimately WordPress localisation lacks a formal enough structure to be self-describing.
 
