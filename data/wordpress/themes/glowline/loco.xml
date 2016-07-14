@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bundle name="GlowLine">
+  <domain name="glowline">
+    <project name="GlowLine" slug="glowline">
+      <source>
+        <directory>.</directory>
+        <exclude>
+          <directory>languages</directory>
+          <directory>css</directory>
+          <directory>fonts</directory>
+          <directory>images</directory>
+          <directory>js</directory>
+        </exclude>
+      </source>
+      <target>
+        <directory>languages</directory>
+      </target>
+      <template>
+        <file>languages/glowline.po</file>
+      </template>
+    </project>
+  </domain>
+</bundle>

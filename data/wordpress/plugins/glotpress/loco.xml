@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bundle name="GlotPress">
+  <domain name="glotpress">
+    <project name="GlotPress" slug="glotpress">
+      <!-- glotpress doesn't ship with languages directory, so saving in global lang dir -->
+      <template>
+        <file base="WP_LANG_DIR">plugins/glotpress.pot</file>
+      </template>
+    </project>
+  </domain>
+  <exclude>
+    <directory>assets</directory>
+    <directory>bin</directory>
+    <directory>tests</directory>
+  </exclude>
+</bundle>

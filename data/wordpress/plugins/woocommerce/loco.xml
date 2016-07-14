@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bundle name="WooCommerce">
+  <domain name="woocommerce">
+    <project name="WooCommerce" slug="woocommerce">
+      <source>
+        <directory>.</directory>
+        <exclude>
+          <directory>assets</directory>
+          <directory>dummy-data</directory>
+          <directory>i18n/languages</directory>
+        </exclude>
+      </source>
+      <target>
+        <directory>i18n/languages</directory>
+      </target>
+      <template>
+        <file>i18n/languages/woocommerce.pot</file>
+      </template>
+    </project>
+  </domain>
+</bundle>

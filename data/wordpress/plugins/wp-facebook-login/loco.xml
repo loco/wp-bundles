@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bundle name="Facebook Login">
+  <domain name="fbl">
+    <project name="Facebook Login" slug="fbl">
+      <source>
+        <directory>.</directory>
+        <exclude>
+          <directory>languages</directory>
+        </exclude>
+      </source>
+      <target>
+        <directory>languages</directory>
+      </target>
+      <template locked="true">
+        <file>languages/fbl-en_US.po</file>
+      </template>
+    </project>
+  </domain>
+  <exclude>
+    <directory>admin/assets</directory>
+    <directory>public/css</directory>
+    <directory>public/image</directory>
+    <directory>public/js</directory>
+  </exclude>
+</bundle>

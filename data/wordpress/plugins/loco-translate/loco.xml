@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bundle name="Loco Translate (v2 translations)" min-version="2">
+  <domain name="loco">
+    <project>
+      <source>
+        <file>loco.php</file>
+        <directory>src</directory>
+        <directory>tpl</directory>
+      </source>
+      <target>
+        <directory>lang</directory>
+      </target>
+      <template>
+        <file>lang/loco.pot</file>
+      </template>
+    </project>
+  </domain>
+  <exclude>
+    <directory>lib</directory>
+    <directory>pub</directory>
+    <directory>test</directory>
+  </exclude>
+</bundle>
