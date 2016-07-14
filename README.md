@@ -11,13 +11,9 @@ Current status: **experimental**.
 
 ## Background
 
-WordPress allows authors a great deal of freedom in how translation files are arranged and compiled. This makes it very hard for other software to **automatically** present translators with the correct workflow as the author intended.
+Developers have a great deal of freedom in how they arrange, compile and load translation files into WordPress. This makes it very hard for other software to **automatically** present translators with the correct workflow for adding new files. WordPress is focussed on the end result of loading translations and lacks a formal enough structure for bundles to be self-describing about their localisaton setup. When bundles are set up in particularly unconventional ways, the software's burden is shifted to the translator and very often that person is not technical enough to make sense of all the files and what they're supposed to do with them. We have [over 700 support requests](https://wordpress.org/support/plugin/loco-translate) as testament to this.
 
-When bundles are set up in particularly unconventional ways, the software's burden is shifted to the translator and very often that person is not technical enough to make sense of all the files and what they're supposed to do with them. We have [over 700 support requests](https://wordpress.org/support/plugin/loco-translate) as testament to this.
-
-80% of themes in the official [WordPress directory](https://wordpress.org/themes/) declare the optional `"Text Domain"` [file header](https://codex.wordpress.org/File_Header). 80% isn't bad, but that's still over 400 themes that leave translation software guessing what text domain it's supposed to use. This kind of metadata can sometimes be established by code scanning, etc.. but this is hugely flawed and often slow. Ultimately WordPress localisation lacks a formal enough structure to be self-describing.
-
-The new version of Loco Translate ([currently in beta](https://localise.biz/help/wordpress/translate-plugin/developers)) introduces a configuration model that allows the localisation of bundles to be **described** in detail. This goes way beyond just the text domain declaration, and is [documented here](https://localise.biz/help/wordpress/translate-plugin/manual/bundle-config). Although we created this for our own needs, the model could be useful to other translation software too.
+The new version of Loco Translate ([currently in beta](https://localise.biz/help/wordpress/translate-plugin/developers)) introduces a [configuration model](https://localise.biz/help/wordpress/translate-plugin/manual/bundle-config) that allows the localisation of bundles to be described in great detail. Although we created this for our own needs, the model could be useful to other translation software too.
 
 
 
