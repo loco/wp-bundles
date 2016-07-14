@@ -12,6 +12,7 @@
       </source>
       <target>
         <directory>i18n/languages</directory>
+        <directory base="WP_LANG_DIR">woocommerce</directory>
       </target>
       <template>
         <file>i18n/languages/woocommerce.pot</file>
