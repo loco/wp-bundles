@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bundle name="bbPress">
+  <domain name="bbpress">
+    <project name="bbPress" slug="bbpress">
+      <source>
+        <directory>.</directory>
+        <exclude>
+          <directory>languages</directory>
+        </exclude>
+      </source>
+      <target>
+        <directory>languages</directory>
+        <directory base="WP_LANG_DIR">bbpress</directory>
+      </target>
+      <template locked="true">
+        <file>languages/bbpress.pot</file>
+      </template>
+    </project>
+  </domain>
+</bundle>

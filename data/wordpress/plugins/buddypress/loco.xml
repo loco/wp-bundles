@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bundle name="BuddyPress">
+  <domain name="buddypress">
+    <project name="BuddyPress" slug="buddypress">
+      <source>
+        <directory>.</directory>
+      </source>
+      <target>
+        <directory base="WP_LANG_DIR">buddypress</directory>
+        <!-- buddypress declares DomainPath as "/bp-languages", but doesn't use it -->
+        <!--directory>bp-languages</directory-->
+      </target>
+      <template locked="true">
+        <file>buddypress.pot</file>
+      </template>
+    </project>
+  </domain>
+  <exclude>
+    <!-- bbpress should manage its own translations -->
+    <directory>bp-forums/bbpress</directory>
+  </exclude>
+</bundle>
