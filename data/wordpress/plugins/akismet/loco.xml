@@ -2,7 +2,7 @@
 <bundle name="Akismet">
   <domain name="akismet">
     <project name="Akismet" slug="akismet">
-      <!-- glotpress doesn't ship with languages directory, so saving in global lang dir -->
+      <!-- Akismet doesn't ship with a template -->
       <template>
         <file base="WP_LANG_DIR">plugins/akismet.pot</file>
       </template>
