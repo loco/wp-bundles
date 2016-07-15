@@ -27,11 +27,11 @@ If you're a theme or plugin developer, please consider shipping a `loco.xml` fil
 
 ## The repository
 
-The repository is just a dumb collection of files. We've chosen XML, because it best [visualises the model](https://localise.biz/help/wordpress/translate-plugin/manual/bundle-config/schema). To look up data in the repository you'll have to build your own tools to compile and query the data. Tooling is beyond the scope of this project for the time being.
+The repository is just a dumb collection of files. We've chosen XML, because it best [visualises the model](https://localise.biz/help/wordpress/translate-plugin/manual/bundle-config/xml-schema). To look up data in the repository you'll have to build your own tools to compile and query the data. Tooling is beyond the scope of this project for the time being.
 
 ### The model
 
-The configuration model is [documented here](https://localise.biz/help/wordpress/translate-plugin/manual/bundle-config/). We welcome suggestions and feedback, but please stick to the [documented XML schema](https://localise.biz/help/wordpress/translate-plugin/manual/bundle-config/schema) if you plan to contribute.
+The configuration model is [documented here](https://localise.biz/help/wordpress/translate-plugin/manual/bundle-config/). We welcome suggestions and feedback, but please stick to the [documented XML schema](https://localise.biz/help/wordpress/translate-plugin/manual/bundle-config/xml-schema) if you plan to contribute.
 
 ### File layout
 
