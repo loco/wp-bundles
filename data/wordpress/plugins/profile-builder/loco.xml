@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bundle name="Profile Builder">
+  <domain name="profile-builder">
+    <project name="Profile Builder" slug="profile-builder">
+      <source>
+        <directory>.</directory>
+        <exclude>
+          <directory>translation</directory>
+        </exclude>
+      </source>
+      <target>
+        <directory>translation</directory>
+      </target>
+      <template locked="true">
+        <file>translation/profile-builder.pot</file>
+      </template>
+    </project>
+  </domain>
+  <exclude>
+    <directory>assets/css</directory>
+    <directory>assets/images</directory>
+    <directory>assets/js</directory>
+  </exclude>
+</bundle>
