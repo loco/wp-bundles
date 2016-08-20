@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bundle name="Twenty Ten">
+  <domain name="twentyten">
+    <project name="Twenty Ten" slug="twentyten">
+      <source>
+        <directory>.</directory>
+        <exclude>
+          <directory>languages</directory>
+        </exclude>
+      </source>
+      <target>
+        <directory>languages</directory>
+      </target>
+      <template>
+        <file>languages/twentyten.pot</file>
+      </template>
+    </project>
+  </domain>
+  <exclude>
+    <directory>images</directory>
+  </exclude>
+</bundle>

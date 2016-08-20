@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bundle name="Twenty Twelve" min-version="2.1">
+  <domain name="twentytwelve">
+    <project name="Twenty Twelve" slug="twentytwelve">
+      <target>
+        <exclude>
+          <directory>.</directory>
+        </exclude>
+      </target>
+    </project>
+  </domain>
+  <exclude>
+    <directory>css</directory>
+    <directory>js</directory>
+  </exclude>
+</bundle>

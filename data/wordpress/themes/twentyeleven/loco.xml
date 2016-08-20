@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bundle name="Twenty Eleven">
+  <domain name="twentyeleven">
+    <project name="Twenty Eleven" slug="twentyeleven">
+      <source>
+        <directory>.</directory>
+        <exclude>
+          <directory>languages</directory>
+        </exclude>
+      </source>
+      <target>
+        <directory>languages</directory>
+      </target>
+      <template>
+        <file>languages/twentyeleven.pot</file>
+      </template>
+    </project>
+  </domain>
+  <exclude>
+    <directory>colors</directory>
+    <directory>images</directory>
+    <directory>js</directory>
+  </exclude>
+</bundle>

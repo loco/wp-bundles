@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bundle name="Twenty Thirteen" min-version="2.0">
+  <domain name="twentythirteen">
+    <project name="Twenty Thirteen" slug="twentythirteen">
+      <target>
+        <exclude>
+          <directory>.</directory>
+        </exclude>
+      </target>
+    </project>
+  </domain>
+  <exclude>
+    <directory>css</directory>
+    <directory>genericons</directory>
+    <directory>images</directory>
+    <directory>js</directory>
+  </exclude>
+</bundle>

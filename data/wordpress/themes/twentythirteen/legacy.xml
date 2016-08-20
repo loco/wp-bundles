@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bundle name="Twenty Thirteen">
+  <domain name="twentythirteen">
+    <project name="Twenty Thirteen" slug="twentythirteen">
+      <source>
+        <directory>.</directory>
+        <exclude>
+          <directory>languages</directory>
+        </exclude>
+      </source>
+      <target>
+        <directory>languages</directory>
+      </target>
+      <template>
+        <file>languages/twentythirteen.pot</file>
+      </template>
+    </project>
+  </domain>
+  <exclude>
+    <directory>css</directory>
+    <directory>genericons</directory>
+    <directory>images</directory>
+    <directory>js</directory>
+  </exclude>
+</bundle>

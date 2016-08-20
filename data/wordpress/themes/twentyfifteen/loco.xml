@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bundle name="Twenty Fifteen" min-version="1.6">
+  <domain name="twentyfifteen">
+    <project name="Twenty Fifteen" slug="twentyfifteen">
+      <target>
+        <exclude>
+          <directory>.</directory>
+        </exclude>
+      </target>
+    </project>
+  </domain>
+  <exclude>
+    <directory>css</directory>
+    <directory>genericons</directory>
+    <directory>js</directory>
+  </exclude>
+</bundle>
