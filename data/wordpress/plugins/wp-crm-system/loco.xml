@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bundle name="WP-CRM System">
+  <domain name="wp-crm-system">
+    <project name="WP-CRM System" slug="wp-crm-system">
+      <source>
+        <directory>.</directory>
+        <exclude>
+          <directory>lang</directory>
+        </exclude>
+      </source>
+      <target>
+        <directory>lang</directory>
+      </target>
+      <template locked="true">
+        <file>lang/wp-crm-system.pot</file>
+      </template>
+    </project>
+  </domain>
+  <exclude>
+    <directory>css</directory>
+    <directory>js</directory>
+    <file>lang/default.po</file>
+  </exclude>
+</bundle>

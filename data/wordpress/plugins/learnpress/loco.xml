@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bundle name="LearnPress">
+  <domain name="learnpress">
+    <project name="LearnPress" slug="learnpress">
+      <source>
+        <directory>.</directory>
+        <exclude>
+          <directory>languages</directory>
+        </exclude>
+      </source>
+      <target>
+        <directory>languages</directory>
+        <directory base="WP_LANG_DIR">learnpress</directory>
+      </target>
+      <template>
+        <file>languages/learnpress.pot</file>
+      </template>
+    </project>
+  </domain>
+  <exclude>
+    <directory>assets</directory>
+    <directory>cache</directory>
+    <directory>dummy-data</directory>
+  </exclude>
+</bundle>
