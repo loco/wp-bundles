@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bundle name="evolve">
+  <domain name="evolve">
+    <project name="Evolve" slug="evolve">
+      <source>
+        <directory>.</directory>
+        <exclude>
+          <directory>languages</directory>
+        </exclude>
+      </source>
+      <target>
+        <directory>languages</directory>
+        <exclude>
+          <file>languages/en_EN.mo</file>
+        </exclude>
+      </target>
+      <!-- note that official template excludes theme metadata -->
+      <template>
+        <file>languages/en_EN.pot</file>
+      </template>
+    </project>
+  </domain>
+  <exclude>
+    <directory>css</directory>
+    <directory>fonts</directory>
+    <directory>library/admin/redux-framework/languages</directory>
+    <directory>library/admin/redux-framework/inc/themecheck/lang</directory>
+  </exclude>
+</bundle>
