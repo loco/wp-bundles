@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bundle name="Twenty Seventeen">
+  <domain name="twentyseventeen">
+    <project name="Twenty Seventeen" slug="twentyseventeen">
+      <source>
+        <directory>.</directory>
+      </source>
+      <target>
+        <exclude>
+          <directory>.</directory>
+        </exclude>
+      </target>
+      <template>
+        <!-- core themes no longer ship with POT files -->
+      </template>
+    </project>
+  </domain>
+  <exclude>
+    <directory>assets</directory>
+  </exclude>
+</bundle>
