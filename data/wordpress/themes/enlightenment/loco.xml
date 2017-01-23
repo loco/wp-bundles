@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bundle name="Enlightenment">
+  <domain name="enlightenment">
+    <project name="Enlightenment" slug="enlightenment">
+      <source>
+        <directory>.</directory>
+        <exclude>
+          <directory>core/languages</directory>
+        </exclude>
+      </source>
+      <target>
+        <directory>core/languages</directory>
+      </target>
+      <template>
+        <file>core/languages/enlightenment.pot</file>
+      </template>
+    </project>
+  </domain>
+  <exclude>
+    <directory>fonts</directory>
+    <directory>images</directory>
+    <directory>js</directory>
+    <directory>languages</directory>
+  </exclude>
+</bundle>
