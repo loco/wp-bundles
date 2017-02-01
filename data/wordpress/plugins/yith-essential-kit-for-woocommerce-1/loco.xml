@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bundle name="YITH Essential Kit for WooCommerce #1">
+  <domain name="yith-essential-kit-for-woocommerce-1">
+    <project name="YITH Essential Kit for WooCommerce #1" slug="yith-essential-kit-for-woocommerce-1">
+      <source>
+        <directory>.</directory>
+        <exclude>
+          <directory>languages</directory>
+          <directory>modules</directory>
+          <directory>plugin-fw</directory>
+        </exclude>
+      </source>
+      <target>
+        <directory>languages</directory>
+      </target>
+      <template>
+        <file>languages/yith-essential-kit-for-woocommerce-1.pot</file>
+      </template>
+    </project>
+  </domain>
+  <domain name="yith-plugin-fw">
+    <project name="YIT Plugin Framework" slug="yith-plugin-fw">
+      <source>
+        <directory>plugin-fw</directory>
+        <exclude>
+          <directory>plugin-fw/languages</directory>
+        </exclude>
+      </source>
+      <target>
+        <directory>plugin-fw/languages</directory>
+      </target>
+      <template>
+        <file>plugin-fw/languages/yith-plugin-fw.pot</file>
+      </template>
+    </project>
+  </domain>
+  <domain name="yith-infinite-scrolling">
+    <project name="YITH Infinite Scrolling" slug="yith-infinite-scrolling">
+      <source>
+        <directory>modules/yith-infinite-scrolling</directory>
+        <exclude>
+          <directory>modules/yith-infinite-scrolling/languages</directory>
+        </exclude>
+      </source>
+      <target>
+        <directory>modules/yith-infinite-scrolling/languages</directory>
+      </target>
+      <template>
+        <file>modules/yith-infinite-scrolling/languages/yith-infinite-scrolling.pot</file>
+      </template>
+    </project>
+  </domain>
+  <domain name="yith-live-chat">
+    <project name="YITH Live Chat" slug="yith-live-chat">
+      <source>
+        <directory>modules/yith-live-chat</directory>
+        <exclude>
+          <directory>modules/yith-live-chat/languages</directory>
+        </exclude>
+      </source>
+      <target>
+        <directory>modules/yith-live-chat/languages</directory>
+      </target>
+      <template>
+        <file>modules/yith-live-chat/languages/yith-live-chat.pot</file>
+      </template>
+    </project>
+  </domain>
+  <domain name="yith-woocommerce-advanced-reviews">
+    <project name="YITH WooCommerce Advanced Reviews" slug="yith-woocommerce-advanced-reviews">
+      <source>
+        <directory>modules/yith-woocommerce-advanced-reviews</directory>
+        <exclude>
+          <directory>modules/yith-woocommerce-advanced-reviews/languages</directory>
+        </exclude>
+      </source>
+      <target>
+        <directory>modules/yith-woocommerce-advanced-reviews/languages</directory>
+      </target>
+      <template>
+        <file>modules/yith-woocommerce-advanced-reviews/languages/yith-woocommerce-advanced-reviews.pot</file>
+      </template>
+    </project>
+  </domain>
+  <domain name="yith-woocommerce-ajax-navigation">
+    <project name="YITH WooCommerce Ajax Product Filter" slug="yith-woocommerce-ajax-navigation">
+      <source>
+        <directory>modules/yith-woocommerce-ajax-navigation</directory>
+        <exclude>
+          <directory>modules/yith-woocommerce-ajax-navigation/languages</directory>
+        </exclude>
+      </source>
+      <target>
+        <directory>modules/yith-woocommerce-ajax-navigation/languages</directory>
+      </target>
+      <template>
+        <file>modules/yith-woocommerce-ajax-navigation/languages/yith-woocommerce-ajax-navigation.pot</file>
+      </template>
+    </project>
+  </domain>
+  <domain name="yith-woocommerce-ajax-search">
+    <project name="YITH WooCommerce Ajax Search" slug="yith-woocommerce-ajax-search">
+      <source>
+        <directory>modules/yith-woocommerce-ajax-search</directory>
+        <exclude>
+          <directory>modules/yith-woocommerce-ajax-search/languages</directory>
+        </exclude>
+      </source>
+      <target>
+        <directory>modules/yith-woocommerce-ajax-search/languages</directory>
+      </target>
+      <template>
+        <file>modules/yith-woocommerce-ajax-search/languages/yith-woocommerce-ajax-search.pot</file>
+      </template>
+    </project>
+  </domain>
+  <domain name="yith-wcauthnet">
+    <project name="YITH WooCommerce Authorize.net Payment Gateway" slug="yith-wcauthnet">
+      <source>
+        <directory>modules/yith-woocommerce-authorizenet-payment-gateway</directory>
+        <exclude>
+          <directory>modules/yith-woocommerce-authorizenet-payment-gateway/languages</directory>
+        </exclude>
+      </source>
+      <target>
+        <directory>modules/yith-woocommerce-authorizenet-payment-gateway/languages</directory>
+      </target>
+      <template>
+        <file>modules/yith-woocommerce-authorizenet-payment-gateway/languages/yith-wcauthnet.pot</file>
+      </template>
+    </project>
+  </domain>
+  <domain name="yith-woocommerce-badges-management">
+    <project name="YITH WooCommerce Badge Management" slug="yith-woocommerce-badges-management">
+      <source>
+        <directory>modules/yith-woocommerce-badges-management</directory>
+        <exclude>
+          <directory>modules/yith-woocommerce-badges-management/languages</directory>
+        </exclude>
+      </source>
+      <target>
+        <directory>modules/yith-woocommerce-badges-management/languages</directory>
+      </target>
+      <template>
+        <file>modules/yith-woocommerce-badges-management/languages/yith-woocommerce-badges-management.pot</file>
+      </template>
+    </project>
+  </domain>
+  <domain name="yith-woocommerce-cart-messages">
+    <project name="YITH WooCommerce Cart Messages" slug="yith-woocommerce-cart-messages">
+      <source>
+        <directory>modules/yith-woocommerce-cart-messages</directory>
+        <exclude>
+          <directory>modules/yith-woocommerce-cart-messages/languages</directory>
+        </exclude>
+      </source>
+      <target>
+        <directory>modules/yith-woocommerce-cart-messages/languages</directory>
+      </target>
+      <template>
+        <file>modules/yith-woocommerce-cart-messages/languages/yith-woocommerce-cart-messages.pot</file>
+      </template>
+    </project>
+  </domain>
+  <domain name="yith-woocommerce-catalog-mode">
+    <project name="YITH WooCommerce Catalog Mode" slug="yith-woocommerce-catalog-mode">
+      <source>
+        <directory>modules/yith-woocommerce-catalog-mode</directory>
+        <exclude>
+          <directory>modules/yith-woocommerce-catalog-mode/languages</directory>
+        </exclude>
+      </source>
+      <target>
+        <directory>modules/yith-woocommerce-catalog-mode/languages</directory>
+      </target>
+      <template>
+        <file>modules/yith-woocommerce-catalog-mode/languages/yith-woocommerce-catalog-mode.pot</file>
+      </template>
+    </project>
+  </domain>
+  <domain name="ywcl">
+    <project name="YITH WooCommerce Colors and Labels Variations" slug="ywcl">
+      <source>
+        <directory>modules/yith-woocommerce-colors-labels-variations</directory>
+        <exclude>
+          <directory>modules/yith-woocommerce-colors-labels-variations/languages</directory>
+        </exclude>
+      </source>
+      <target>
+        <directory>modules/yith-woocommerce-colors-labels-variations/languages</directory>
+      </target>
+      <template>
+        <file>modules/yith-woocommerce-colors-labels-variations/languages/ywcl.pot</file>
+      </template>
+    </project>
+  </domain>
+  <domain name="yith-woocommerce-compare">
+    <project name="YITH WooCommerce Compare" slug="yith-woocommerce-compare">
+      <source>
+        <directory>modules/yith-woocommerce-compare</directory>
+        <exclude>
+          <directory>modules/yith-woocommerce-compare/languages</directory>
+        </exclude>
+      </source>
+      <target>
+        <directory>modules/yith-woocommerce-compare/languages</directory>
+      </target>
+      <template>
+        <file>modules/yith-woocommerce-compare/languages/yith-woocommerce-compare.pot</file>
+      </template>
+    </project>
+  </domain>
+  <domain name="yith-woocommerce-eu-vat">
+    <project name="YITH WooCommerce EU VAT" slug="yith-woocommerce-eu-vat">
+      <source>
+        <directory>modules/yith-woocommerce-eu-vat</directory>
+        <exclude>
+          <directory>modules/yith-woocommerce-eu-vat/languages</directory>
+        </exclude>
+      </source>
+      <target>
+        <directory>modules/yith-woocommerce-eu-vat/languages</directory>
+      </target>
+      <template>
+        <file>modules/yith-woocommerce-eu-vat/languages/yith-woocommerce-eu-vat.pot</file>
+      </template>
+    </project>
+  </domain>
+  <domain name="yith-woocommerce-mailchimp">
+    <project name="YITH WooCommerce Mailchimp" slug="yith-woocommerce-mailchimp">
+      <source>
+        <directory>modules/yith-woocommerce-mailchimp</directory>
+        <exclude>
+          <directory>modules/yith-woocommerce-mailchimp/languages</directory>
+        </exclude>
+      </source>
+      <target>
+        <directory>modules/yith-woocommerce-mailchimp/languages</directory>
+      </target>
+    </project>
+  </domain>
+  <domain name="yith-woocommerce-order-tracking">
+    <project name="YITH WooCommerce Order Tracking" slug="yith-woocommerce-order-tracking">
+      <source>
+        <directory>modules/yith-woocommerce-order-tracking</directory>
+        <exclude>
+          <directory>modules/yith-woocommerce-order-tracking/languages</directory>
+        </exclude>
+      </source>
+      <target>
+        <directory>modules/yith-woocommerce-order-tracking/languages</directory>
+      </target>
+      <template>
+        <file>modules/yith-woocommerce-order-tracking/languages/yith-woocommerce-order-tracking.pot</file>
+      </template>
+    </project>
+  </domain>
+  <domain name="yith-woocommerce-product-add-ons">
+    <project name="YITH WooCommerce Product Add-Ons" slug="yith-woocommerce-product-add-ons">
+      <source>
+        <directory>modules/yith-woocommerce-product-add-ons</directory>
+        <exclude>
+          <directory>modules/yith-woocommerce-product-add-ons/languages</directory>
+        </exclude>
+      </source>
+      <target>
+        <directory>modules/yith-woocommerce-product-add-ons/languages</directory>
+      </target>
+      <template>
+        <file>modules/yith-woocommerce-product-add-ons/languages/yith-woocommerce-product-add-ons.pot</file>
+      </template>
+    </project>
+  </domain>
+  <domain name="yith-woocommerce-product-vendors">
+    <project name="YITH WooCommerce Multi Vendor" slug="yith-woocommerce-product-vendors">
+      <source>
+        <directory>modules/yith-woocommerce-product-vendors</directory>
+        <exclude>
+          <directory>modules/yith-woocommerce-product-vendors/languages</directory>
+        </exclude>
+      </source>
+      <target>
+        <directory>modules/yith-woocommerce-product-vendors/languages</directory>
+      </target>
+      <template>
+        <file>modules/yith-woocommerce-product-vendors/languages/yith-woocommerce-product-vendors.pot</file>
+      </template>
+    </project>
+  </domain>
+  <domain name="yith-woocommerce-quick-view">
+    <project name="YITH WooCommerce Quick View" slug="yith-woocommerce-quick-view">
+      <source>
+        <directory>modules/yith-woocommerce-quick-view</directory>
+        <exclude>
+          <directory>modules/yith-woocommerce-quick-view/languages</directory>
+        </exclude>
+      </source>
+      <target>
+        <directory>modules/yith-woocommerce-quick-view/languages</directory>
+      </target>
+      <template>
+        <file>modules/yith-woocommerce-quick-view/languages/yith-woocommerce-quick-view.pot</file>
+      </template>
+    </project>
+  </domain>
+  <domain name="yith-woocommerce-request-a-quote">
+    <project name="YITH Woocommerce Request A Quote" slug="yith-woocommerce-request-a-quote">
+      <source>
+        <directory>modules/yith-woocommerce-request-a-quote</directory>
+        <exclude>
+          <directory>modules/yith-woocommerce-request-a-quote/languages</directory>
+        </exclude>
+      </source>
+      <target>
+        <directory>modules/yith-woocommerce-request-a-quote/languages</directory>
+      </target>
+      <template>
+        <file>modules/yith-woocommerce-request-a-quote/languages/yith-woocommerce-request-a-quote.pot</file>
+      </template>
+    </project>
+  </domain>
+  <domain name="yith-woocommerce-review-reminder">
+    <project name="YITH WooCommerce Review Reminder" slug="yith-woocommerce-review-reminder">
+      <source>
+        <directory>modules/yith-woocommerce-review-reminder</directory>
+        <exclude>
+          <directory>modules/yith-woocommerce-review-reminder/languages</directory>
+        </exclude>
+      </source>
+      <target>
+        <directory>modules/yith-woocommerce-review-reminder/languages</directory>
+      </target>
+      <template>
+        <file>modules/yith-woocommerce-review-reminder/languages/yith-woocommerce-review-reminder.pot</file>
+      </template>
+    </project>
+  </domain>
+  <domain name="yith-stripe">
+    <project name="YITH WooCommerce Stripe" slug="yith-stripe">
+      <source>
+        <directory>modules/yith-woocommerce-stripe</directory>
+        <exclude>
+          <directory>modules/yith-woocommerce-stripe/languages</directory>
+        </exclude>
+      </source>
+      <target>
+        <directory>modules/yith-woocommerce-stripe/languages</directory>
+      </target>
+      <template>
+        <file>modules/yith-woocommerce-stripe/languages/yith-stripe.pot</file>
+      </template>
+    </project>
+  </domain>
+  <domain name="yith-woocommerce-tab-manager">
+    <project name="YITH WooCommerce Tab Manager" slug="yith-woocommerce-tab-manager">
+      <source>
+        <directory>modules/yith-woocommerce-tab-manager</directory>
+        <exclude>
+          <directory>modules/yith-woocommerce-tab-manager/languages</directory>
+        </exclude>
+      </source>
+      <target>
+        <directory>modules/yith-woocommerce-tab-manager/languages</directory>
+      </target>
+      <template>
+        <file>modules/yith-woocommerce-tab-manager/languages/yith-woocommerce-tab-manager.pot</file>
+      </template>
+    </project>
+  </domain>
+  <domain name="yith-woocommerce-waiting-list">
+    <project name="YITH WooCommerce Waiting List" slug="yith-woocommerce-waiting-list">
+      <source>
+        <directory>modules/yith-woocommerce-waiting-list</directory>
+        <exclude>
+          <directory>modules/yith-woocommerce-waiting-list/languages</directory>
+        </exclude>
+      </source>
+      <target>
+        <directory>modules/yith-woocommerce-waiting-list/languages</directory>
+      </target>
+      <template>
+        <file>modules/yith-woocommerce-waiting-list/languages/yith-woocommerce-waiting-list.pot</file>
+      </template>
+    </project>
+  </domain>
+  <domain name="yith-woocommerce-wishlist">
+    <project name="YITH WooCommerce Wishlist" slug="yith-woocommerce-wishlist">
+      <source>
+        <directory>modules/yith-woocommerce-wishlist</directory>
+        <exclude>
+          <directory>modules/yith-woocommerce-wishlist/languages</directory>
+        </exclude>
+      </source>
+      <target>
+        <directory>modules/yith-woocommerce-wishlist/languages</directory>
+      </target>
+      <template>
+        <file>modules/yith-woocommerce-wishlist/languages/yith-woocommerce-wishlist.pot</file>
+      </template>
+    </project>
+  </domain>
+  <domain name="yith-woocommerce-zoom-magnifier">
+    <project name="YITH WooCommerce Zoom Magnifier" slug="yith-woocommerce-zoom-magnifier">
+      <source>
+        <directory>modules/yith-woocommerce-zoom-magnifier</directory>
+        <exclude>
+          <directory>modules/yith-woocommerce-zoom-magnifier/languages</directory>
+        </exclude>
+      </source>
+      <target>
+        <directory>modules/yith-woocommerce-zoom-magnifier/languages</directory>
+      </target>
+      <template>
+        <file>modules/yith-woocommerce-zoom-magnifier/languages/yith-woocommerce-zoom-magnifier.pot</file>
+      </template>
+    </project>
+  </domain>
+  <exclude>
+    <directory>assets</directory>
+  </exclude>
+</bundle>
