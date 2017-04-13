@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bundle name="Sell Downloads">
+  <!-- plugin uses a text domain constant SD_TEXT_DOMAIN, so using wildcard workaround -->
+  <domain name="*">
+    <project name="Sell Downloads" slug="sell-downloads">
+      <source>
+        <directory>sd-core</directory>
+        <file>sell-downloads.php</file>
+        <exclude>
+          <directory>sd-core/images</directory>
+        </exclude>
+      </source>
+      <target>
+        <directory>.</directory>
+      </target>
+      <template>
+        <file base="WP_LANG_DIR">plugins/sell-downloads.pot</file>
+      </template>
+    </project>
+  </domain>
+</bundle>
