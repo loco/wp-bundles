@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bundle name="Newsletter">
+  <domain name="newsletter">
+    <project name="Newsletter" slug="newsletter">
+      <source>
+        <directory>.</directory>
+      </source>
+      <target>
+        <directory>languages</directory>
+      </target>
+      <template>
+        <file base="WP_LANG_DIR">newsletter.pot</file>
+      </template>
+    </project>
+  </domain>
+  <exclude>
+    <directory>css</directory>
+    <directory>images</directory>
+    <directory>js</directory>
+    <directory>emails/languages</directory>
+  </exclude>
+</bundle>
