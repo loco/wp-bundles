@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bundle name="BuddyPress Docs">
+  <domain name="bp-docs">
+    <project name="BuddyPress Docs" slug="bp-docs">
+      <source>
+        <directory>.</directory>
+      </source>
+      <target>
+        <directory>languages</directory>
+      </target>
+      <template>
+        <file>languages/bp-docs.pot</file>
+      </template>
+    </project>
+  </domain>
+  <exclude>
+    <directory>tests</directory>
+    <directory>includes/css</directory>
+    <directory>includes/fonts</directory>
+    <directory>includes/images</directory>
+    <directory>includes/js</directory>
+    <directory>includes/scss</directory>
+  </exclude>
+</bundle>
