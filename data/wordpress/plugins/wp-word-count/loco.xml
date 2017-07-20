@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bundle name="WP Word Count">
+  <domain name="*">
+    <project name="WP Word Count" slug="wp-word-count">
+      <source>
+        <directory>admin</directory>
+        <exclude>
+          <directory>admin/css</directory>
+          <directory>admin/js</directory>
+          <directory>admin/images</directory>
+        </exclude>
+      </source>
+      <target>
+        <directory>languages</directory>
+      </target>
+      <template>
+        <file>languages/wp-word-count.pot</file>
+      </template>
+    </project>
+  </domain>
+</bundle>
