@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bundle name="The Events Calendar">
+  <domain name="the-events-calendar">
+    <project name="The Events Calendar" slug="the-events-calendar">
+      <source>
+        <directory>src</directory>
+      </source>
+      <target>
+        <directory>lang</directory>
+      </target>
+      <template locked="true">
+        <file>lang/the-events-calendar.pot</file>
+      </template>
+    </project>
+  </domain>
+  <domain name="tribe-common">
+    <project name="Tribe Common" slug="tribe-common">
+      <source>
+        <directory>common</directory>
+        <exclude>
+          <directory>common/lang</directory>
+        </exclude>
+      </source>
+      <target>
+        <directory>common/lang</directory>
+      </target>
+      <template locked="true">
+        <file>common/lang/tribe-common.pot</file>
+      </template>
+    </project>
+  </domain>
+</bundle>
