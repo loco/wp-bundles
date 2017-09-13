@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bundle name="YITH WooCommerce Multi Vendor">
+  <domain name="yith-woocommerce-product-vendors">
+    <project name="YITH WooCommerce Multi Vendor" slug="yith-woocommerce-product-vendors">
+      <source>
+        <directory>.</directory>
+        <exclude>
+          <directory>languages</directory>
+          <directory>plugin-fw</directory>
+        </exclude>
+      </source>
+      <target>
+        <directory>languages</directory>
+      </target>
+      <template>
+        <file>languages/yith-woocommerce-product-vendors.pot</file>
+      </template>
+    </project>
+  </domain>
+  <domain name="yith-plugin-fw">
+    <project name="YIT Plugin Framework" slug="yith-plugin-fw">
+      <source>
+        <directory>plugin-fw</directory>
+        <exclude>
+          <directory>plugin-fw/languages</directory>
+        </exclude>
+      </source>
+      <target>
+        <directory>plugin-fw/languages</directory>
+      </target>
+      <template>
+        <file>plugin-fw/languages/yith-plugin-fw.pot</file>
+      </template>
+    </project>
+  </domain>
+  <exclude>
+    <directory>assets</directory>
+  </exclude>
+</bundle>
