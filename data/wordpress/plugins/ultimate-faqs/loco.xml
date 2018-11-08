@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bundle name="Ultimate FAQ">
+  <domain name="ultimate-faqs">
+    <project name="Ultimate FAQ" slug="ultimate-faqs">
+      <source>
+        <directory>.</directory>
+        <exclude>
+          <directory>lang</directory>
+          <directory>FPDF</directory>
+          <directory>PHPSpreadsheet</directory>
+        </exclude>
+      </source>
+      <target>
+        <directory>lang</directory>
+      </target>
+      <template>
+        <file>lang/ultimate-faqs.pot</file>
+      </template>
+    </project>
+  </domain>
+  <exclude>
+    <directory>css</directory>
+    <directory>images</directory>
+  </exclude>
+</bundle>
