@@ -4,16 +4,16 @@
 
 This is a repository of configuration files that describe how WordPress "bundles" (themes and plugins) have been **localised**.
 
-It's been set up specifically to help the [Loco Translate](https://localise.biz/help/wordpress/translate-plugin) plugin make sense of non-standard translation setups, but any software could potentially use it for the same purpose.
+It's been set up specifically to help the [Loco Translate](https://localise.biz/wordpress/plugin) plugin make sense of non-standard translation setups, but any software could potentially use it for the same purpose.
 
 Current status: **experimental**.
 
 
 ## Background
 
-Developers have a great deal of freedom in how they arrange, compile and load translation files into WordPress. This makes it very hard for other software to **automatically** present translators with the correct workflow for adding new files. WordPress is focussed on the end result of loading translations and lacks a formal enough structure for bundles to be self-describing about their localisaton setup. When bundles are set up in particularly unconventional ways, the software's burden is shifted to the translator and very often that person is not technical enough to make sense of all the files and what they're supposed to do with them. We have [over 700 support requests](https://wordpress.org/support/plugin/loco-translate) as testament to this.
+Developers have a great deal of freedom in how they arrange, compile and load translation files into WordPress. This makes it very hard for other software to **automatically** present translators with the correct workflow for adding new files. WordPress is focussed on the end result of loading translations and lacks a formal enough structure for bundles to be self-describing about their localisaton setup. When bundles are set up in particularly unconventional ways, the software's burden is shifted to the translator and very often that person is not technical enough to make sense of all the files and what they're supposed to do with them. We have [over a thousand support requests](https://wordpress.org/support/plugin/loco-translate) as testament to this.
 
-The new version of Loco Translate ([currently in beta](https://localise.biz/help/wordpress/translate-plugin/developers)) introduces a [configuration model](https://localise.biz/help/wordpress/translate-plugin/manual/bundle-config) that allows the localisation of bundles to be described in great detail. Although we created this for our own needs, the model could be useful to other translation software too.
+The new version of [Loco Translate](https://localise.biz/wordpress/plugin) introduces a [configuration model](https://localise.biz/wordpress/plugin/manual/bundle-config/xml-schema) that allows the localisation of bundles to be described in great detail. Although we created this for our own needs, the model could be useful to other translation software too.
 
 
 
@@ -27,11 +27,11 @@ If you're a theme or plugin developer, please consider shipping a `loco.xml` fil
 
 ## The repository
 
-The repository is just a dumb collection of files. We've chosen XML, because it best [visualises the model](https://localise.biz/help/wordpress/translate-plugin/manual/bundle-config/xml-schema). To look up data in the repository you'll have to build your own tools to compile and query the data. Tooling is beyond the scope of this project for the time being.
+The repository is just a dumb collection of files. We've chosen XML, because it best [visualises the model](https://localise.biz/wordpress/plugin/manual/bundle-config). To look up data in the repository you'll have to build your own tools to compile and query the data. Tooling is beyond the scope of this project for the time being.
 
 ### The model
 
-The configuration model is [documented here](https://localise.biz/help/wordpress/translate-plugin/manual/bundle-config/). We welcome suggestions and feedback, but please stick to the [documented XML schema](https://localise.biz/help/wordpress/translate-plugin/manual/bundle-config/xml-schema) if you plan to contribute.
+The configuration model is [documented here](https://localise.biz/wordpress/plugin/manual/bundle-config). We welcome suggestions and feedback, but please stick to the [documented XML schema](https://localise.biz/wordpress/plugin/manual/bundle-config/xml-schema) if you plan to contribute.
 
 ### File layout
 
