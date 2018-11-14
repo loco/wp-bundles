@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bundle name="Twenty Nineteen">
+  <domain name="twentynineteen">
+    <project name="Twenty Nineteen" slug="twentynineteen">
+      <source>
+        <directory>.</directory>
+      </source>
+      <target>
+        <directory>.</directory>
+      </target>
+      <template>
+        <file base="WP_LANG_DIR">twentynineteen.pot</file>
+      </template>
+    </project>
+  </domain>
+  <exclude>
+    <directory>sass</directory>
+    <directory>fonts</directory>
+  </exclude>
+</bundle>
