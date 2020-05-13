@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bundle name="BuddyPress" min-version="2.9.3">
+<bundle name="BuddyPress">
   <domain name="buddypress">
     <project name="BuddyPress" slug="buddypress">
       <source>
@@ -7,15 +7,16 @@
       </source>
       <target>
         <directory base="WP_LANG_DIR">buddypress</directory>
+        <!-- buddypress declares DomainPath as "/bp-languages", but doesn't use it -->
+        <!--directory>bp-languages</directory-->
       </target>
-      <template>
-        <!-- Version 2.9.3 shipped with a broken POT file -->
-        <file base="WP_LANG_DIR">buddypress/buddypress.pot</file>
+      <template locked="true">
+        <file>buddypress.pot</file>
       </template>
     </project>
   </domain>
   <exclude>
+    <!-- bbpress should manage its own translations -->
     <directory>bp-forums/bbpress</directory>
-    <file>buddypress.pot</file>
   </exclude>
 </bundle>

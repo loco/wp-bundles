@@ -4,11 +4,14 @@
     <project name="WooCommerce" slug="woocommerce">
       <source>
         <directory>.</directory>
+        <exclude>
+          <directory>i18n/languages</directory>
+        </exclude>
       </source>
       <target>
-        <directory base="WP_LANG_DIR">woocommerce</directory>
+        <directory>i18n/languages</directory>
       </target>
-      <template>
+      <template locked="true">
         <file base="WP_LANG_DIR">woocommerce/woocommerce.pot</file>
       </template>
     </project>
