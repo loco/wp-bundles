@@ -12,7 +12,7 @@
         <directory>i18n/languages</directory>
       </target>
       <template locked="true">
-        <file base="WP_LANG_DIR">woocommerce/woocommerce.pot</file>
+        <file>i18n/languages/woocommerce.pot</file>
       </template>
     </project>
   </domain>
